@@ -300,12 +300,9 @@ function printArray(number) {
 // sevenBoom([2, 55, 60, 97, 86]) ➞ "Boom!"
 // 97 contains the number seven.
 
-
 function sevenBoom(arr) {
   return arr.toString().includes(7) ? "Boom!" : "there is no 7 in the array";
 }
-
-
 
 // 21 Return the Next Number from the Integer Passed
 
@@ -318,7 +315,77 @@ function sevenBoom(arr) {
 // addition(-3) ➞ -2
 
 function addition(num) {
-    return num + 1
+  return num + 1;
+}
+
+// 22 Perimeters with a Catch
+
+// perimeter("s", 7) ➞ 28
+
+// perimeter("c", 4) ➞ 25.12
+
+// perimeter("c", 9) ➞ 56.52
+
+function perimeter(l, num) {
+  if (l === "s") {
+    return num * 4;
+  } else if (l === "c") {
+    return num * 6.28;
+  }
+}
+
+// 23 Convert Hours and Minutes into Seconds
+
+// convert(1, 3) ➞ 3780
+
+// convert(2, 0) ➞ 7200
+
+// convert(0, 0) ➞ 0
+
+function convert(hours, minutes) {
+  return hours * 3600 + minutes * 60;
+}
+
+// 24 Tower of Hanoi
+
+// towerHanoi(3) ➞ 7
+
+// towerHanoi(5) ➞ 31
+
+// towerHanoi(0) ➞ 0
+
+function towerHanoi(discs) {
+  return 2 ** discs - 1;
+}
+
+// 25 Basketball Points
+
+// points(1, 1) ➞ 5
+
+// points(7, 5) ➞ 29
+
+// points(38, 8) ➞ 100
+
+// function points(twoPointers, threePointers) {
+//   return twoPointers * 2 + threePointers * 3;
+// }
+
+// 26 Number of Boomerangs
+
+// countBoomerangs([9, 5, 9, 5, 1, 1, 1]) ➞ 2
+
+// countBoomerangs([5, 6, 6, 7, 6, 3, 9]) ➞ 1
+
+// countBoomerangs([4, 4, 4, 9, 9, 9, 9]) ➞ 0
+
+function countBoomerangs(arr) {
+  let counter = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== arr[i + 1] && arr[i] === arr[i + 2]) {
+      counter++;
+    }
+  }
+  return counter;
 }
 
 
