@@ -5,10 +5,10 @@
 ### Sources for Challenges
 
 **Edabit** 
-Pros
+Pros  
 Resources Tab
 Comment Section
 
-Cons
+Cons  
 Web app runs slow
 Some challenges are poorly written
