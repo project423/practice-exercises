@@ -2,8 +2,6 @@
 
 # Daily Logic Challenges
 
-## Sources for Challenges
-
 ### Edabit
 
 **Pros**  
