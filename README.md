@@ -8,8 +8,9 @@
 
 **Pros**  
 
-Resources Tab
+Resources' Tab 
 Comment Section
+Excellent Choice for Beginners
 
 **Cons**  
 
