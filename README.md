@@ -18,4 +18,4 @@ Excellent Choice for Beginners
 
 Web app runs slow  
 
-Some challenges are poorly written
+Some challenges are poorly explained
