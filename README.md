@@ -1,10 +1,10 @@
-# Practice Exercises
 
-## Daily Logic Challenges
 
-### Sources for Challenges
+# Daily Logic Challenges
 
-#### Edabit
+## Sources for Challenges
+
+### Edabit
 
 **Pros**  
 
