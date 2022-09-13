@@ -8,11 +8,14 @@
 
 **Pros**  
 
-Resources' Tab 
-Comment Section
-Excellent Choice for Beginners
+Resources' Tab  
+
+Comment Section  
+
+Excellent Choice for Beginners  
 
 **Cons**  
 
-Web app runs slow
+Web app runs slow  
+
 Some challenges are poorly written
